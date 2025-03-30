@@ -1,2 +1,3 @@
 # Signal-Compression
- My solution to the project of Tampere University's COMP.SGN.210 Signal Compression course
+
+This project focuses on applying signal compression techniques using MATLAB, specifically using **lossless coding methods** to process an image. It involves reading and manipulating a grayscale image, calculating its empirical entropy, and applying the **Median Adaptive Predictor (MAP)** to decorrelate pixel values. The prediction error matrix is then encoded using **Golomb-Rice** codes to achieve compression. Additionally, the project explores the optimization of block size for encoding prediction errors and evaluates compression performance through various metrics like bits per pixel (bpp).
